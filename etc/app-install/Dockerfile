@@ -1,4 +1,4 @@
-FROM alpine:latest as build
+FROM alpine:3.18.3 as build
 
 RUN apk --no-cache add curl jq
 
